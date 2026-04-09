@@ -11,7 +11,7 @@ export default function ModalImageGrid({ folders, folder }: Props) {
   const images = folders[folder] ?? [];
 
   return (
-    <div className="flex flex-wrap justify-center p-4">
+    <div className="flex flex-wrap justify-center ">
       {images.map((src, i) => (
         <div key={i} className="w-1/2 p-1 flex justify-center">
           <Image
