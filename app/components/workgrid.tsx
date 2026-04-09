@@ -11,39 +11,6 @@ type WorkGridProps = {
   }[];
 };
 
-const projects = [
-  {
-    title: "Virtual Reality Tour Training",
-    category: "UX / VR",
-    image: "/projects/vr-project.jpg",
-  },
-  {
-    title: "Climate Storytelling Campaign",
-    category: "Design / Sustainability",
-    image: "/projects/climate-project.jpg",
-  },
-  {
-    title: "Student Media Photography",
-    category: "Photography",
-    image: "/projects/photo-project.jpg",
-  },
-  {
-    title: "Social Media Marketing Strategy",
-    category: "Marketing",
-    image: "/projects/marketing-project.jpg",
-  },
-  {
-    title: "qw Media Photography",
-    category: "Photography",
-    image: "/projects/photo-project.jpg",
-  },
-  {
-    title: "Sociaqwl Media Marketing Strategy",
-    category: "Marketing",
-    image: "/projects/marketing-project.jpg",
-  },
-];
-
 export default function WorkGrid({ projects }: WorkGridProps) {
   return (
     <section className="w-full bg-white">

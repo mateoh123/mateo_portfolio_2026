@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import wavingHand from "./assets/Front_Page_Assets/waving_hand.gif";
+import wavingHand from "../public/assets/Front_Page_Assets/waving_hand.gif";
 
 export default function Home() {
   return (

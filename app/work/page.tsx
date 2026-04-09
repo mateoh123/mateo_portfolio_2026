@@ -2,24 +2,20 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import workHand from "../assets/mainworkhand.png";
-import fingerLeft from "../assets/mainworkfingerleft.png";
-import fingerRight from "../assets/mainworkfingerright.png";
-import handSleeve from "../assets/handsleeve.png";
 import WorkGrid from "../components/workgrid";
 import MobileFilterSidebar from "../components/sidebarfilter";
 import DesktopFilter from "../components/fullscreenfilter";
 
 const projects = [
   {
-    title: "Virtual Reality Tour Training",
-    category: "UX / VR",
-    image: "/projects/vr-project.jpg",
+    title: "NYU Office of Sustainability",
+    category: "Digital Marketing",
+    image: "/assets/Work_Assets/mfitkcc6amjfxxyymjv8.avif",
   },
   {
-    title: "Climate Storytelling Campaign",
-    category: "Design / Sustainability",
-    image: "/projects/climate-project.jpg",
+    title: "Project Two",
+    category: "Digital Marketing",
+    image: "/assets/Work_Assets/huxourc1ps5fgo6twlxc.avif",
   },
   {
     title: "Student Media Photography",
@@ -46,12 +42,11 @@ const projects = [
 export default function WorkPage() {
   const categories = [
     "All",
-    "UX / UI",
+    "Web Development",
+    "Digital Marketing",
     "Photography",
-    "Marketing",
-    "Web",
-    "VR",
-    "Data",
+    "VR Development",
+    "Creative Medias",
   ];
 
   const [activeFilter, setActiveFilter] = useState("All");
@@ -69,9 +64,8 @@ export default function WorkPage() {
           activeFilter={activeFilter}
           setActiveFilter={setActiveFilter}
         />
-
         <button
-          className="fixed left-0 top-1/12 -translate-y-1/2 z-50 bg-red-600 text-white text-sm font-medium tracking-widest uppercase py-2 "
+          className="fixed left-0 top-1/12 -translate-y-1/2 z-50 bg-red-600 text-white text-sm font-medium tracking-widest uppercase py-2"
           style={{
             writingMode: "vertical-rl",
             transform: "translateY(50%) rotate(360deg)",
@@ -82,15 +76,15 @@ export default function WorkPage() {
           </Link>
         </button>
       </div>
-      <main className="relative min-h-screen overflow-hidden grid grid-cols-1 md:grid-cols-[1fr_1.1fr_1fr] lg:grid-cols-[1fr_1.1fr_1fr] bg-white ">
-        <div className="hidden md:block md:flex md:flex-col md:gap-15">
-          <h1 className="origin-top text-red-600 mt-[5vw] ml-[0.5vw] mobile:origin-center text-[19vw] ipad:text-[15vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
+      <main className="relative min-h-screen overflow-hidden grid grid-cols-1 md:grid-cols-[1fr_1.1fr_1fr] lg:grid-cols-[1fr_1.1fr_1fr] bg-white">
+        <div className="hidden md:flex md:flex-col md:gap-15">
+          <h1 className="origin-top text-red-600 mt-[5vw] ml-[0.5vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
             Work
           </h1>
-          <div className="flex flex-col gap-3 text-[8vw] xs:text-[5vw] ipadSM:text-[4vw] ipadLG:text-[3vw] md:text-[2vw]">
+          <div className="flex flex-col gap-3 md:text-[2vw]">
             <Link
               href="/contact"
-              className="items-end scale-y-[2] text-left ml-[1vw] text-black font-bold transition-all duration-200 opacity-50 hover:opacity-100 hover:translate-x-1"
+              className="scale-y-[2] text-left ml-[1vw] text-black font-bold transition-all duration-200 opacity-50 hover:opacity-100 hover:translate-x-1"
             >
               <h1>Contact</h1>
             </Link>
@@ -101,45 +95,50 @@ export default function WorkPage() {
         <div className="overflow-hidden">
           {/* 1. Hand Sleeve — behind grid */}
           <Image
-            src={handSleeve}
+            src="/assets/handsleeve.png"
             alt="hand sleeve"
+            width={1000}
+            height={1000}
             className="absolute top-1/2 -translate-x-[102%] -translate-y-[10%] w-[55vw] h-auto z-[5]"
             priority
           />
-          {/* 1. Hand — behind grid */}
+          {/* 2. Hand — behind grid */}
           <Image
-            src={workHand}
+            src="/assets/mainworkhand.png"
             alt="waving hand"
-            className="absolute  top-1/2 -translate-x-[22%] -translate-y-[40%] w-[55vw] h-auto z-0"
+            width={1000}
+            height={1000}
+            className="absolute top-1/2 -translate-x-[22%] -translate-y-[40%] w-[55vw] h-auto z-0"
             priority
           />
 
-          {/* 2. Grid — in front of hand */}
+          {/* 3. Grid — in front of hand */}
           <div className="overflow-y-scroll h-screen relative z-10 bg-white">
             <WorkGrid projects={filteredProjects} />
           </div>
 
-          {/* 3. Left finger — in front of grid */}
+          {/* 4. Left finger — in front of grid */}
           <Image
-            src={fingerLeft}
+            src="/assets/mainworkfingerleft.png"
             alt="left finger"
+            width={1000}
+            height={1000}
             className="md:absolute left-[-18%] w-[33vw] md:w-[15vw] bottom-[10%] md:bottom-[57%] md:left-[27%] h-auto z-20"
             priority
           />
 
-          {/* 4. Right fingertip — in front of grid */}
+          {/* 5. Right fingertip — in front of grid */}
           <Image
-            src={fingerRight}
+            src="/assets/mainworkfingerright.png"
             alt="right finger"
+            width={1000}
+            height={1000}
             className="absolute w-[30vw] right-[-15%] md:right-[27%] md:bottom-[42%] md:w-[8vw] h-auto z-20"
             priority
           />
         </div>
 
-        <div className="hidden md:flex flex-col items-end text-right gap-8">
-          <h1 className="origin-top mt-[2vw] mr-[0.5vw] mobile:origin-center text-[19vw] ipad:text-[15vw] md:text-[2vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
-            Filters
-          </h1>
+        <div className="hidden md:flex flex-col items-end text-right mt-[1vw]">
           <DesktopFilter
             categories={categories}
             activeFilter={activeFilter}

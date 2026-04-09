@@ -1,0 +1,139 @@
+module.exports = [
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+"[project]/app/favicon.ico (static in ecmascript, tag client)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/favicon.0x3dzn~oxb6tn.ico" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+"[project]/app/favicon.ico.mjs { IMAGE => \"[project]/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$28$static__in__ecmascript$2c$__tag__client$29$__ = __turbopack_context__.i("[project]/app/favicon.ico (static in ecmascript, tag client)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
+    width: 256,
+    height: 256
+};
+}),
+"[externals]/fs [external] (fs, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("fs", () => require("fs"));
+
+module.exports = mod;
+}),
+"[project]/app/oosgd/oosgdclient.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+const e = new Error("Could not parse module '[project]/app/oosgd/oosgdclient.tsx'\n\nExpected '</', got '='");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
+}),
+"[project]/app/oosgd/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Page
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$fs__$5b$external$5d$__$28$fs$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/fs [external] (fs, cjs)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$path__$5b$external$5d$__$28$path$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/path [external] (path, cjs)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$oosgd$2f$oosgdclient$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/oosgd/oosgdclient.tsx [app-rsc] (ecmascript)");
+;
+{
+/* <main>
+        <h1 className="origin-top mt-[2vw] mb-[14vw] ml-[0.5vw]  md:text-[5vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
+          Office of Sustainability
+        </h1>
+      </main>
+      <main className="relative min-h-screen overflow-hidden grid grid-cols-1 md:grid-cols-[1fr_1fr] lg:grid-cols-[1fr_3fr] bg-white">
+        <div className="hidden md:flex flex-col items-end text-right mt-[1vw]"></div>
+        <div className="hidden md:flex md:flex-col md:gap-15 m-[3vw]">
+          <p className="text-black font-medium">
+            <span className="scale-y-[2] inline-block font-bold">As</span> a
+            Communications Coordinator for the NYU Office of Sustainability, I
+            managed and supported communication efforts that connected students,
+            staff, and faculty to sustainability initiatives across campus. My
+            role focused on maintaining a consistent digital presence, improving
+            internal communication workflows, and designing visual assets that
+            made sustainability messaging more accessible and engaging. This
+            position strengthened my ability to coordinate messaging across
+            teams, manage digital platforms, and translate complex environmental
+            topics into clear, visually compelling communication.
+          </p>
+          <h1 className="origin-top mt-[2vw] mb-[14vw] ml-[0.5vw]  md:text-[5vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
+            Digital Graphics
+          </h1>
+          <ModalImageGrid folders={folders} folder="OfficeOfSustainability" />;
+          <iframe
+            src="https://www.instagram.com/reel/DR2KIKrkalE/embed"
+            width="400"
+            height="700"
+            allowTransparency={true}
+            allow="encrypted-media"
+          />
+          <iframe
+            src="https://www.instagram.com/reel/DRfNu6HgXQ3/embed"
+            width="400"
+            height="700"
+            allowTransparency={true}
+            allow="encrypted-media"
+          />
+          <iframe
+            src="https://www.instagram.com/reel/DQesQrzkYDu/embed"
+            width="400"
+            height="700"
+            allowTransparency={true}
+            allow="encrypted-media"
+          />
+          <iframe
+            src="https://www.instagram.com/reel/DPg6MIKCprt/embed"
+            width="400"
+            height="700"
+            allowTransparency={true}
+            allow="encrypted-media"
+          />
+          <iframe
+            src="https://www.instagram.com/reel/DN5qhoKgRru/embed"
+            width="400"
+            height="700"
+            allowTransparency={true}
+            allow="encrypted-media"
+          />
+        </div>
+      </main>
+       */ };
+;
+;
+function Page() {
+    const baseDir = __TURBOPACK__imported__module__$5b$externals$5d2f$path__$5b$external$5d$__$28$path$2c$__cjs$29$__["default"].join(process.cwd(), "public/assets/Work_Assets");
+    const folders = {};
+    __TURBOPACK__imported__module__$5b$externals$5d2f$fs__$5b$external$5d$__$28$fs$2c$__cjs$29$__["default"].readdirSync(baseDir).forEach((folder)=>{
+        const folderPath = __TURBOPACK__imported__module__$5b$externals$5d2f$path__$5b$external$5d$__$28$path$2c$__cjs$29$__["default"].join(baseDir, folder);
+        if (__TURBOPACK__imported__module__$5b$externals$5d2f$fs__$5b$external$5d$__$28$fs$2c$__cjs$29$__["default"].statSync(folderPath).isDirectory()) {
+            folders[folder] = __TURBOPACK__imported__module__$5b$externals$5d2f$fs__$5b$external$5d$__$28$fs$2c$__cjs$29$__["default"].readdirSync(folderPath).filter((f)=>/\.(jpg|jpeg|png|avif|webp)$/i.test(f)).map((f)=>`/assets/Work_Assets/${folder}/${f}`);
+        }
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$oosgd$2f$oosgdclient$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+        folders: folders
+    }, void 0, false, {
+        fileName: "[project]/app/oosgd/page.tsx",
+        lineNumber: 83,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/app/oosgd/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/app/oosgd/page.tsx [app-rsc] (ecmascript)"));
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0-_x8ey._.js.map
