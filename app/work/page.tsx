@@ -11,31 +11,37 @@ const projects = [
     title: "NYU Office of Sustainability",
     category: "Digital Marketing",
     image: "/assets/Work_Assets/mfitkcc6amjfxxyymjv8.avif",
+    link: "/oosgd",
   },
   {
-    title: "Project Two",
+    title: "Digital Media Intellect",
     category: "Digital Marketing",
     image: "/assets/Work_Assets/huxourc1ps5fgo6twlxc.avif",
+    link: "/dmi",
   },
   {
-    title: "Student Media Photography",
-    category: "Photography",
+    title: "On Trail With",
+    category: "Web Development",
     image: "/projects/photo-project.jpg",
+    link: "/otw",
   },
   {
-    title: "Social Media Marketing Strategy",
-    category: "Marketing",
+    title: "Ajihome",
+    category: "Web Development",
     image: "/projects/marketing-project.jpg",
+    link: "/aj",
   },
   {
-    title: "qw Media Photography",
-    category: "Photography",
+    title: "NYU Admissions Ambassadors",
+    category: "Web Development",
     image: "/projects/photo-project.jpg",
+    link: "/AA",
   },
   {
     title: "Sociaqwl Media Marketing Strategy",
     category: "Marketing",
     image: "/projects/marketing-project.jpg",
+    link: "/oosgd",
   },
 ];
 
@@ -78,13 +84,13 @@ export default function WorkPage() {
       </div>
       <main className="relative min-h-screen overflow-hidden grid grid-cols-1 md:grid-cols-[1fr_1.1fr_1fr] lg:grid-cols-[1fr_1.1fr_1fr] bg-white">
         <div className="hidden md:flex md:flex-col md:gap-15">
-          <h1 className="origin-top text-red-600 mt-[5vw] ml-[0.5vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
+          <h1 className="origin-top text-red-600  ml-[0.5vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
             Work
           </h1>
           <div className="flex flex-col gap-3 md:text-[2vw]">
             <Link
               href="/contact"
-              className="scale-y-[2] text-left ml-[1vw] text-black font-bold transition-all duration-200 opacity-50 hover:opacity-100 hover:translate-x-1"
+              className="scale-y-[2] text-left ml-[1vw] mt-[5vw] text-black font-bold transition-all duration-200 opacity-50 hover:opacity-100 hover:translate-x-1"
             >
               <h1>Contact</h1>
             </Link>

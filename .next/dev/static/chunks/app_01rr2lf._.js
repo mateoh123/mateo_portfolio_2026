@@ -143,12 +143,12 @@ function OOSGD_Client({ folders }) {
                     children: "Office of Sustainability"
                 }, void 0, false, {
                     fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                    lineNumber: 72,
+                    lineNumber: 73,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                lineNumber: 71,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -158,32 +158,32 @@ function OOSGD_Client({ folders }) {
                         className: "flex items-center justify-center md:hidden flex-row gap-4 px-2 py-4 xs:py-6   m-1 sticky top-0 bg-white z-50 border-b-4 border-black",
                         children: sections.map((section)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: `#${section.toLowerCase().replace(/\s+/g, "-")}`,
-                                className: `text-[5vw] ipadSM:text-[2.8vw] align-center font-bold transition-all duration-200 ${active === section ? "text-red-600 scale-y-[3]" : "text-black opacity-40"}`,
+                                className: `text-[5vw] ipadSM:text-[2.8vw] align-center font-bold transition-all duration-200 ${active === section ? "text-green-950 scale-y-[3]" : "text-black opacity-40"}`,
                                 children: section
                             }, section, false, {
                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                lineNumber: 80,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                        lineNumber: 78,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hidden md:flex flex-col items-end justify-start sticky top-[3vw] h-fit pt-[3vw] pl-[2vw] gap-5",
                         children: sections.map((section)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: `#${section.toLowerCase().replace(/\s+/g, "-")}`,
-                                className: `text-sm font-bold transition-all duration-200 ${active === section ? "text-red-600 translate-x-[4px] scale-y-[3]  text-[1.5vw] md:text-[2.5vw]" : "text-black opacity-40 hover:opacity-100  text-[1.5vw] md:text-[2.5vw]"}`,
+                                className: `text-sm font-bold transition-all duration-200 ${active === section ? "text-green-950 translate-x-[4px] scale-y-[3]  text-[1.5vw] md:text-[2.5vw]" : "text-black opacity-40 hover:opacity-100  text-[1.5vw] md:text-[2.5vw]"}`,
                                 children: section
                             }, section, false, {
                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                lineNumber: 96,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                        lineNumber: 94,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -202,7 +202,7 @@ function OOSGD_Client({ folders }) {
                                                     children: "My"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 116,
                                                     columnNumber: 17
                                                 }, this),
                                                 " ",
@@ -210,98 +210,48 @@ function OOSGD_Client({ folders }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 115,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 114,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                        className: "flex flex-col gap-6 md:gap-0",
+                                        className: "flex flex-col gap-6 md:gap-4",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex flex-col md:flex-row gap-4 md:gap-[5vw] text-black items-start justify-start text-left md:mb-[1.5vw]",
-                                                children: projectInfo.map(({ label, value })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "w-full md:w-[20vw]",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-[6vw] ipadSM:text-[3vw] md:text-[2.5vw] opacity-70 uppercase tracking-widest text-red-600 scale-y-[1.5]",
-                                                                children: label
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                                lineNumber: 129,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "font-bold ipadSM:text-[3vw] text-[6.5vw] md:text-[2vw]",
-                                                                children: value
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                                lineNumber: 132,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, label, true, {
-                                                        fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                        lineNumber: 128,
-                                                        columnNumber: 19
-                                                    }, this))
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProjectInfo, {
+                                                items: projectInfo
                                             }, void 0, false, {
                                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 127,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex flex-col md:flex-row gap-4 md:gap-[5vw] text-black items-start justify-start text-left",
-                                                children: skillsInfo.map(({ label, value })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "w-full md:w-[20vw]",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-[6vw] ipadSM:text-[3vw] md:text-[2.5vw] opacity-70 uppercase tracking-widest text-red-600 scale-y-[1.5]",
-                                                                children: label
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                                lineNumber: 142,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "font-bold ipadSM:text-[3vw] text-[5.5vw] md:text-[2vw]",
-                                                                children: value.join(", ")
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                                lineNumber: 145,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, label, true, {
-                                                        fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                        lineNumber: 141,
-                                                        columnNumber: 19
-                                                    }, this))
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProjectInfo, {
+                                                items: skillsInfo
                                             }, void 0, false, {
                                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 128,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 126,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                lineNumber: 112,
+                                lineNumber: 113,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-full h-[4px] bg-black"
                             }, void 0, false, {
                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                lineNumber: 153,
+                                lineNumber: 131,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -312,7 +262,7 @@ function OOSGD_Client({ folders }) {
                                         children: "Digital Graphics"
                                     }, void 0, false, {
                                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                        lineNumber: 155,
+                                        lineNumber: 133,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$modalimagegrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -320,7 +270,7 @@ function OOSGD_Client({ folders }) {
                                         folder: "OfficeOfSustainability"
                                     }, void 0, false, {
                                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 136,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$modalimagegrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -328,20 +278,20 @@ function OOSGD_Client({ folders }) {
                                         folder: "OfficeOfSustainabilityLandscape"
                                     }, void 0, false, {
                                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                        lineNumber: 159,
+                                        lineNumber: 137,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                lineNumber: 154,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-full h-[4px] bg-black"
                             }, void 0, false, {
                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                lineNumber: 164,
+                                lineNumber: 142,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -352,7 +302,7 @@ function OOSGD_Client({ folders }) {
                                         children: "Videos"
                                     }, void 0, false, {
                                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                        lineNumber: 166,
+                                        lineNumber: 144,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -374,40 +324,40 @@ function OOSGD_Client({ folders }) {
                                                         allow: "encrypted-media"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                        lineNumber: 182,
+                                                        lineNumber: 160,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, id, false, {
                                                     fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 156,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                            lineNumber: 170,
+                                            lineNumber: 148,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                        lineNumber: 169,
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                                lineNumber: 165,
+                                lineNumber: 143,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                        lineNumber: 111,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/oosgd/oosgdclient.tsx",
-                lineNumber: 76,
+                lineNumber: 77,
                 columnNumber: 7
             }, this)
         ]

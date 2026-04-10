@@ -7,9 +7,11 @@ __turbopack_context__.s([
     ()=>WorkGrid
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -19,78 +21,85 @@ function WorkGrid({ projects }) {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: " grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 overflow-y-auto ",
-                children: projects.map((project, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                        whileHover: {
-                            scale: 0.98
-                        },
-                        transition: {
-                            duration: 0.2
-                        },
-                        className: "group relative overflow-hidden bg-gray-100 aspect-square cursor-pointer",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: project.image,
-                                alt: project.title,
-                                fill: true,
-                                sizes: "(max-width: 768px) 100vw, 50vw",
-                                className: " object-cover transition duration-500 group-hover:scale-105 "
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/workgrid.tsx",
-                                lineNumber: 34,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: " absolute inset-0 bg-black/0 group-hover:bg-black/40 transition duration-300 "
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/workgrid.tsx",
-                                lineNumber: 47,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: " absolute bottom-0 left-0 p-6 text-white opacity-0 group-hover:opacity-100 transition duration-300 ",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm uppercase tracking-wide",
-                                        children: project.category
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/components/workgrid.tsx",
-                                        lineNumber: 71,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold leading-tight",
-                                        children: project.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/components/workgrid.tsx",
-                                        lineNumber: 74,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/components/workgrid.tsx",
-                                lineNumber: 58,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, index, true, {
+                className: "grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 overflow-y-auto",
+                children: projects.map((project, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: project.link,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                            whileHover: {
+                                scale: 0.98
+                            },
+                            transition: {
+                                duration: 0.2
+                            },
+                            className: "group relative overflow-hidden bg-gray-100 aspect-square cursor-pointer",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: project.image,
+                                    alt: project.title,
+                                    fill: true,
+                                    sizes: "(max-width: 768px) 100vw, 50vw",
+                                    className: "object-cover transition duration-500 group-hover:scale-105"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/components/workgrid.tsx",
+                                    lineNumber: 28,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute inset-0 bg-black/0 group-hover:bg-black/40 transition duration-300"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/components/workgrid.tsx",
+                                    lineNumber: 35,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute bottom-0 left-0 p-6 text-white opacity-0 group-hover:opacity-100 transition duration-300",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm uppercase tracking-wide",
+                                            children: project.category
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/workgrid.tsx",
+                                            lineNumber: 37,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold leading-tight",
+                                            children: project.title
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/workgrid.tsx",
+                                            lineNumber: 40,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/components/workgrid.tsx",
+                                    lineNumber: 36,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/components/workgrid.tsx",
+                            lineNumber: 23,
+                            columnNumber: 15
+                        }, this)
+                    }, index, false, {
                         fileName: "[project]/app/components/workgrid.tsx",
-                        lineNumber: 28,
+                        lineNumber: 22,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/components/workgrid.tsx",
-                lineNumber: 18,
+                lineNumber: 20,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/workgrid.tsx",
-            lineNumber: 17,
+            lineNumber: 19,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/workgrid.tsx",
-        lineNumber: 16,
+        lineNumber: 18,
         columnNumber: 5
     }, this);
 }
@@ -303,32 +312,38 @@ const projects = [
     {
         title: "NYU Office of Sustainability",
         category: "Digital Marketing",
-        image: "/assets/Work_Assets/mfitkcc6amjfxxyymjv8.avif"
+        image: "/assets/Work_Assets/mfitkcc6amjfxxyymjv8.avif",
+        link: "/oosgd"
     },
     {
-        title: "Project Two",
+        title: "Digital Media Intellect",
         category: "Digital Marketing",
-        image: "/assets/Work_Assets/huxourc1ps5fgo6twlxc.avif"
+        image: "/assets/Work_Assets/huxourc1ps5fgo6twlxc.avif",
+        link: "/dmi"
     },
     {
-        title: "Student Media Photography",
-        category: "Photography",
-        image: "/projects/photo-project.jpg"
+        title: "On Trail With",
+        category: "Web Development",
+        image: "/projects/photo-project.jpg",
+        link: "/otw"
     },
     {
-        title: "Social Media Marketing Strategy",
-        category: "Marketing",
-        image: "/projects/marketing-project.jpg"
+        title: "Ajihome",
+        category: "Web Development",
+        image: "/projects/marketing-project.jpg",
+        link: "/aj"
     },
     {
-        title: "qw Media Photography",
-        category: "Photography",
-        image: "/projects/photo-project.jpg"
+        title: "NYU Admissions Ambassadors",
+        category: "Web Development",
+        image: "/projects/photo-project.jpg",
+        link: "/AA"
     },
     {
         title: "Sociaqwl Media Marketing Strategy",
         category: "Marketing",
-        image: "/projects/marketing-project.jpg"
+        image: "/projects/marketing-project.jpg",
+        link: "/oosgd"
     }
 ];
 function WorkPage() {
@@ -354,7 +369,7 @@ function WorkPage() {
                         setActiveFilter: setActiveFilter
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 62,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -370,23 +385,23 @@ function WorkPage() {
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 75,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/work/page.tsx",
-                            lineNumber: 74,
+                            lineNumber: 80,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 67,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/work/page.tsx",
-                lineNumber: 61,
+                lineNumber: 67,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -396,39 +411,39 @@ function WorkPage() {
                         className: "hidden md:flex md:flex-col md:gap-15",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "origin-top text-red-600 mt-[5vw] ml-[0.5vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]",
+                                className: "origin-top text-red-600  ml-[0.5vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]",
                                 children: "Work"
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 81,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col gap-3 md:text-[2vw]",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/contact",
-                                    className: "scale-y-[2] text-left ml-[1vw] text-black font-bold transition-all duration-200 opacity-50 hover:opacity-100 hover:translate-x-1",
+                                    className: "scale-y-[2] text-left ml-[1vw] mt-[5vw] text-black font-bold transition-all duration-200 opacity-50 hover:opacity-100 hover:translate-x-1",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         children: "Contact"
                                     }, void 0, false, {
                                         fileName: "[project]/app/work/page.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 84,
+                                lineNumber: 90,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 80,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -443,7 +458,7 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 97,
+                                lineNumber: 103,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -455,7 +470,7 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 106,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -464,12 +479,12 @@ function WorkPage() {
                                     projects: filteredProjects
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 123,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 116,
+                                lineNumber: 122,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -481,7 +496,7 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 121,
+                                lineNumber: 127,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -493,13 +508,13 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 131,
+                                lineNumber: 137,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 95,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -510,18 +525,18 @@ function WorkPage() {
                             setActiveFilter: setActiveFilter
                         }, void 0, false, {
                             fileName: "[project]/app/work/page.tsx",
-                            lineNumber: 142,
+                            lineNumber: 148,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 141,
+                        lineNumber: 147,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/work/page.tsx",
-                lineNumber: 79,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
