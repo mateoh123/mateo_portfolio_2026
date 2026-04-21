@@ -2,9 +2,13 @@
 import ScrollNav from "../components/scrollnav";
 import WorkDescription from "../components/workdescription";
 import Image from "next/image";
+import BulletList from "../components/bulletedlist";
+import StatsGrid from "../components/statsgrid";
 import SectionTitle from "../components/sectiontitle";
+import SectionIntro from "../components/sectionintro";
 import SectionLine from "../components/sectionline";
 import ProjectSkills from "../components/projectskills";
+import GoBack from "../components/goback";
 
 const sections = [
   "Overview",
@@ -17,29 +21,6 @@ const sections = [
   "Reflection",
 ];
 
-const projectInfo = [
-  { label: "Role", value: "Sole Developer/Designer" },
-  { label: "Organization", value: "On Trail With" },
-];
-
-const skillsInfo = [
-  {
-    label: "Software",
-    value: ["Figma", "Wix", "Adobe Photoshop"],
-  },
-  {
-    label: "Skills",
-    value: [
-      "Social Media Management",
-      "Internal Communication",
-      "Graphic Design",
-      "Digital Content Strategy",
-      "Cross-Team Coordination",
-      "Brand Consistency",
-    ],
-  },
-];
-
 type Props = {
   folders: Record<string, string[]>;
 };
@@ -47,6 +28,7 @@ type Props = {
 export default function OTW_Client({ folders }: Props) {
   return (
     <>
+      <GoBack />
       <div className="relative w-full aspect-[18/9]">
         <Image
           src="/assets/Work_Assets/OnTrailWith/OTWWebHeader.png"
@@ -57,59 +39,67 @@ export default function OTW_Client({ folders }: Props) {
       </div>
 
       <main className="relative min-h-screen grid grid-cols-1 md:grid-cols-[1fr_3fr] lg:grid-cols-[1fr_3fr] bg-white">
-        <ScrollNav sections={sections} />
+        <ScrollNav sections={sections} activeColor="text-emerald-700" />
 
         {/* Right column — all content */}
-        <div className="flex flex-col m-[3vw] gap-15">
+        <div className="flex flex-col m-[3vw] gap-5">
           <section id="overview">
-            <WorkDescription
-              description="At the heart of this project, was to highlight the organizations most impressive hikes. 
-My goal was to ensure that every user that visited the website would have a seamless journey, one that would be smooth, and take them through On Trail With’s top hiking experiences. 
-With an eye for detail and dedication for excellence, we strove to create a platform that would reflect the healing and calm nature of the organizations work. 
-While at the end of the day,. beaccessible to all."
+            <SectionIntro
+              description="At the heart of this project, was to highlight the organizations most impressive hikes. My goal was to ensure that every user that visited the website would have a seamless journey, one that would be smooth, and take them through On Trail With’s top hiking experiences. With an eye for detail and dedication for excellence, we strove to create a platform that would reflect the healing and calm nature of the organizations work. While at the end of the day,. beaccessible to all."
+              title="Overview"
             />
-          </section>
-          <section className="flex flex-col gap-6 md:gap-4">
-            <ProjectSkills items={projectInfo} />
-            <ProjectSkills items={skillsInfo} />
+            <ProjectSkills
+              role="Sole Developer/Designer"
+              organization="On Trail With"
+              softwares={[
+                "Wix",
+                "Figma",
+                "Adobe Photoshop",
+                "Visual Studio Code",
+              ]}
+            />
           </section>
           <SectionLine />
           <section id="problem">
-            <SectionTitle title="Problem" />
-            <WorkDescription description="Users struggled to quickly find relevant information due to unclear navigation and inconsistent content organization. The website lacked a defined hierarchy, making it difficult to explore trails, stories, and resources efficiently; especially on mobile devices." />
-            <ul className="list-disc pl-6 ipadSM:text-[2.8vw] md:text-[1.8vw] lg:text-[1.6vw] text-black">
-              <li>Pages were difficult to scan quickly</li>
-              <li>Mobile usability was limited</li>
-              <li>Navigation was not intuitive</li>
-              <li>Content hierarchy was unclear</li>
-            </ul>
+            <SectionIntro
+              description="Users struggled to quickly find relevant information due to unclear navigation and inconsistent content organization. The website lacked a defined hierarchy, making it difficult to explore trails, stories, and resources efficiently; especially on mobile devices."
+              title="Problem"
+            />
+            <BulletList
+              items={[
+                "Pages were difficult to scan quickly",
+                "Mobile usability was limited",
+                "Navigation was not intuitive",
+                "Content hierarchy was unclear",
+              ]}
+            />
           </section>
           <SectionLine />
           <section id="research">
-            <SectionTitle title="Research" />
-            <WorkDescription description="To guide design decisions, I analyzed how users interact with content-heavy websites and identified common usability patterns." />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 ipadSM:text-[2.8vw] md:text-[1.8vw] lg:text-[1.6vw] text-black">
-              <div>
-                <p className="uppercase tracking-widest opacity-70 mb-3 mt-3 scale-y-[2]">
-                  Research Methods
-                </p>
-                <ul className="list-disc pl-6">
-                  <li>Competitive analysis of similar websites</li>
-                  <li>Review of navigation patterns and content usage</li>
-                </ul>
-              </div>
-              <div>
-                <p className="uppercase tracking-widest opacity-70 mb-3 mt-3 scale-y-[2]">
-                  Key Findings
-                </p>
-                <ul className="list-disc pl-6">
-                  <li>Users prefer predictable navigation structures</li>
-                  <li>Clear visual hierarchy improves task completion</li>
-                  <li>Mobile responsiveness significantly impacts usability</li>
-                  <li>Reducing cognitive load improves engagement</li>
-                </ul>
-              </div>
-            </div>
+            <SectionIntro
+              description="To guide design decisions, I analyzed how users interact with content-heavy websites and identified common usability patterns."
+              title="Research"
+            />
+            <StatsGrid
+              sections={[
+                {
+                  title: "Research Methods",
+                  bullets: [
+                    "Competitive analysis of similar websites",
+                    "Review of navigation patterns and content usage",
+                  ],
+                },
+                {
+                  title: "Key Findings",
+                  bullets: [
+                    "Users prefer predictable navigation structures",
+                    "Clear visual hierarchy improves task completion",
+                    "Mobile responsiveness significantly impacts usability",
+                    "Reducing cognitive load improves engagement",
+                  ],
+                },
+              ]}
+            />
           </section>
           <SectionLine />
           <section id="color-system" className="relative w-full aspect-[33/9]">
@@ -154,8 +144,10 @@ While at the end of the day,. beaccessible to all."
           </section>
           <SectionLine />
           <section id="reflection">
-            <SectionTitle title="Reflection" />
-            <WorkDescription description="This project strengthened my understanding of how thoughtful design decisions directly impact usability and user confidence. I learned that effective UX is not just about visual design, but about organizing information in a way that reduces friction and supports user goals. By restructuring navigation and prioritizing clarity, I saw how small changes in hierarchy and layout can significantly improve how users interact with a website. Moving forward, I aim to deepen my skills in usability testing and data-driven design decisions, while continuing to create experiences that are both intuitive and accessible. This project helped solidify my interest in designing digital products that balance functionality, clarity, and meaningful user engagement." />
+            <SectionIntro
+              description="This project strengthened my understanding of how thoughtful design decisions directly impact usability and user confidence. I learned that effective UX is not just about visual design, but about organizing information in a way that reduces friction and supports user goals. By restructuring navigation and prioritizing clarity, I saw how small changes in hierarchy and layout can significantly improve how users interact with a website. Moving forward, I aim to deepen my skills in usability testing and data-driven design decisions, while continuing to create experiences that are both intuitive and accessible. This project helped solidify my interest in designing digital products that balance functionality, clarity, and meaningful user engagement."
+              title="Reflection"
+            />
           </section>
         </div>
       </main>

@@ -19,6 +19,7 @@
   --breakpoint-ipadSM: 660px;
   --breakpoint-ipadLG: 840px;
   --breakpoint-ipad: 720px;
+  --breakpoint-desktopSM: 770px;
   --breakpoint-wide: 1440px;
 }
 
@@ -63,8 +64,30 @@
   }
 }
 
+@keyframes sway {
+  0%,
+  100% {
+    transform: translateX(-5px) rotate(-5deg);
+  }
+  50% {
+    transform: translateX(5px) rotate(5deg);
+  }
+}
+
+.animate-sway {
+  animation: sway 2s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { filter: drop-shadow(0 0 0px red); }
+  50% { filter: drop-shadow(0 0 20px red); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
 body {
   background: var(--foreground);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

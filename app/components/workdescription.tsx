@@ -4,8 +4,8 @@ type WorkDescriptionProps = {
 
 export default function WorkDescription({ description }: WorkDescriptionProps) {
   return (
-    <div className="">
-      <p className="text-black font-medium ipadSM:text-[3vw] md:text-[2vw] lg:text-[1.6vw]">
+    <div>
+      <p className="text-black text-sm xs:text-base ipad:text-lg 2xl:text-[1.5vw] font-sans ">
         <span className="scale-y-[2] inline-block font-bold">
           {description.split(" ")[0]}
         </span>{" "}

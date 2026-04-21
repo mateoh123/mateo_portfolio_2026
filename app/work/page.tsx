@@ -1,12 +1,19 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import WorkGrid from "../components/workgrid";
-import MobileFilterSidebar from "../components/sidebarfilter";
 import DesktopFilter from "../components/fullscreenfilter";
+import MobileSidebar from "../components/mobilesidebar";
+import NameHeading from "../components/nameheading";
+import ContactPatch from "../components/contactpatch";
 
 const projects = [
+  {
+    title: "Animated Album Covers",
+    category: "Creative Media",
+    image: "/assets/Work_Assets/mfitkcc6amjfxxyymjv8.avif",
+    link: "/aac",
+  },
   {
     title: "NYU Office of Sustainability",
     category: "Digital Marketing",
@@ -38,10 +45,40 @@ const projects = [
     link: "/AA",
   },
   {
-    title: "Sociaqwl Media Marketing Strategy",
-    category: "Marketing",
+    title: "What IDM Job Are You? — Interactive Snapchat Campaign",
+    category: "Digital Marketing/VR Development",
     image: "/projects/marketing-project.jpg",
-    link: "/oosgd",
+    link: "/DMIXAR",
+  },
+  {
+    title: "Clean Your Hard Drive",
+    category: "Digital Marketing",
+    image: "/projects/marketing-project.jpg",
+    link: "/cyh",
+  },
+  {
+    title: "Valorax: Your Hero",
+    category: "VR Development",
+    image: "/projects/marketing-project.jpg",
+    link: "/vyh",
+  },
+  {
+    title: "20 To 10: AR Experience",
+    category: "VR Development",
+    image: "/projects/marketing-project.jpg",
+    link: "/TTTAR",
+  },
+  {
+    title: "WIRED: AR Cover",
+    category: "VR Development",
+    image: "/projects/marketing-project.jpg",
+    link: "/WAR",
+  },
+  {
+    title: "VR Axe Throwing",
+    category: "VR Development",
+    image: "/projects/marketing-project.jpg",
+    link: "/AXE",
   },
 ];
 
@@ -64,92 +101,77 @@ export default function WorkPage() {
 
   return (
     <>
-      <div className="md:hidden">
-        <MobileFilterSidebar
-          categories={categories}
-          activeFilter={activeFilter}
-          setActiveFilter={setActiveFilter}
-        />
-        <button
-          className="fixed left-0 top-1/12 -translate-y-1/2 z-50 bg-red-600 text-white text-sm font-medium tracking-widest uppercase py-2"
-          style={{
-            writingMode: "vertical-rl",
-            transform: "translateY(50%) rotate(360deg)",
-          }}
-        >
-          <Link href="/contact">
-            <h1 className="scale-x-[3]">Contact</h1>
-          </Link>
-        </button>
-      </div>
-      <main className="relative min-h-screen overflow-hidden grid grid-cols-1 md:grid-cols-[1fr_1.1fr_1fr] lg:grid-cols-[1fr_1.1fr_1fr] bg-white">
-        <div className="hidden md:flex md:flex-col md:gap-15">
-          <h1 className="origin-top text-red-600  ml-[0.5vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
-            Work
-          </h1>
-          <div className="flex flex-col gap-3 md:text-[2vw]">
-            <Link
-              href="/contact"
-              className="scale-y-[2] text-left ml-[1vw] mt-[5vw] text-black font-bold transition-all duration-200 opacity-50 hover:opacity-100 hover:translate-x-1"
-            >
-              <h1>Contact</h1>
-            </Link>
-          </div>
+      <MobileSidebar
+        categories={categories}
+        activeFilter={activeFilter}
+        setActiveFilter={setActiveFilter}
+      />
+      <main className="relative min-h-screen  desktopSM:overflow-hidden gap-[1vw] grid grid-cols-1 desktopSM:grid-cols-[1fr_1.3fr] bg-white">
+        <div className="hidden desktopSM:block desktopSM:flex flex-row desktopSM:flex-col ">
+          {/* Leg Boots */}
+          {/* <NameHeading names={["Mateo", "Hernandez"]} /> */}
         </div>
 
-        {/* Middle column */}
-        <div className="overflow-hidden">
+        <div className=" overflow-hidden">
+          {/* <DesktopFilter
+            categories={categories}
+            activeFilter={activeFilter}
+            setActiveFilter={setActiveFilter}
+          /> */}
           {/* 1. Hand Sleeve — behind grid */}
           <Image
-            src="/assets/handsleeve.png"
+            src="/assets/handsleeveV2.png"
             alt="hand sleeve"
             width={1000}
             height={1000}
-            className="absolute top-1/2 -translate-x-[102%] -translate-y-[10%] w-[55vw] h-auto z-[5]"
+            className="hidden desktopSM:block desktopSM:absolute top-1/2 -translate-x-[107%] -translate-y-[7%] w-[55vw] h-auto z-[5]"
             priority
           />
+          {/* 2. Sleeve Patch  — in front of Sleeve */}
+          <ContactPatch />
           {/* 2. Hand — behind grid */}
           <Image
             src="/assets/mainworkhand.png"
             alt="waving hand"
             width={1000}
             height={1000}
-            className="absolute top-1/2 -translate-x-[22%] -translate-y-[40%] w-[55vw] h-auto z-0"
+            className="hidden desktopSM:block desktopSM:absolute top-1/2 -translate-x-[25%] -translate-y-[39%] w-[55vw] h-auto z-0"
             priority
           />
-
-          {/* 3. Grid — in front of hand */}
-          <div className="overflow-y-scroll h-screen relative z-10 bg-white">
-            <WorkGrid projects={filteredProjects} />
-          </div>
-
-          {/* 4. Left finger — in front of grid */}
+          {/* 5. Thumb — in front of grid */}
           <Image
-            src="/assets/mainworkfingerleft.png"
-            alt="left finger"
+            alt="thumb"
             width={1000}
             height={1000}
-            className="md:absolute left-[-18%] w-[33vw] md:w-[15vw] bottom-[10%] md:bottom-[57%] md:left-[27%] h-auto z-20"
-            priority
+            className="hidden desktopSM:block desktopSM:absolute w-[15vw] h-auto z-20 top-1/2 -translate-y-[139%] left-[39%]"
+            src="/assets/mainworkfingerleft.png"
           />
-
+          {/* 3. Grid — in front of hand */}
+          <div className="overflow-y-scroll h-screen relative z-10 bg-white pointer-events-none">
+            <div className="pointer-events-auto">
+              <WorkGrid projects={filteredProjects} />
+            </div>
+          </div>
           {/* 5. Right fingertip — in front of grid */}
           <Image
             src="/assets/mainworkfingerright.png"
             alt="right finger"
             width={1000}
             height={1000}
-            className="absolute w-[30vw] right-[-15%] md:right-[27%] md:bottom-[42%] md:w-[8vw] h-auto z-20"
+            className="hidden desktopSM:block desktopSM:absolute w-[30vw] right-[-15%] desktopSM::-right-[4%] desktopSM::bottom-[42%] desktopSM::w-[8vw] h-auto z-20"
             priority
           />
         </div>
-
-        <div className="hidden md:flex flex-col items-end text-right mt-[1vw]">
-          <DesktopFilter
-            categories={categories}
-            activeFilter={activeFilter}
-            setActiveFilter={setActiveFilter}
+        <div className="desktopSM:hidden fixed bottom-0 left-0 w-full z-50 flex flex-row items-end bg-white">
+          <Image
+            src="/assets/legsBoots.png"
+            alt="Leg Boots"
+            width={1000}
+            height={1000}
+            className="mr-auto scale-y-[-1] w-[32vw] h-auto"
+            priority
           />
+          <NameHeading names={["Mateo", "Hernandez"]} />
         </div>
       </main>
     </>
