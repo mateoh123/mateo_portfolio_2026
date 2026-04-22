@@ -14,18 +14,18 @@ export default function YoutubeAndImage({
   aspectRatio = "portrait",
 }: VideoAndImageProps) {
   return (
-    <div className="flex flex-col sm:flex-row gap-4 mt-4 items-start">
-      <div className="w-full sm:w-[calc(29%-8px)]">
+    <div className="flex flex-col sm:flex-row gap-1 gap-y-4 mb-5 ">
+      <div className="w-full sm:w-2/5">
         <Image
           src={imageSrc}
           alt={imageAlt}
           width={400}
           height={400}
-          className="w-full h-full object-cover"
+          className="w-full h-full "
         />
       </div>
       <div
-        className={`w-full sm:w-[calc(50%-8px)] ${aspectRatio === "portrait" ? "aspect-[9.6/16]" : "aspect-video"}`}
+        className={`w-full sm:w-2/3 ${aspectRatio === "portrait" ? "aspect-[9.6/16]" : "aspect-video"}`}
       >
         <iframe
           src={videoUrl}

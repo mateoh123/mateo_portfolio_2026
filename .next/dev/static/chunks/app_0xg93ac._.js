@@ -76,7 +76,7 @@ function ProjectSkills({ role, organization, softwares = [] }) {
                 className: "w-full flex flex-col ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-sans text-lg ipad:text-xl 2xl:text-[2.5vw] text-black font-bold uppercase tracking-widest text-left opacity-30",
+                        className: "font-sans text-sm ipad:text-lg 2xl:text-[1.3vw] text-black font-bold uppercase tracking-widest text-left opacity-30",
                         children: label
                     }, void 0, false, {
                         fileName: "[project]/app/components/projectskills.tsx",
@@ -84,7 +84,7 @@ function ProjectSkills({ role, organization, softwares = [] }) {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-medium font-sans text-sm xs:text-base ipad:text-lg 2xl:text-[1.5vw]",
+                        className: "font-medium font-sans text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8",
                         children: value
                     }, void 0, false, {
                         fileName: "[project]/app/components/projectskills.tsx",
@@ -207,13 +207,13 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 ;
-function SectionTitle({ title, className = "" }) {
+function SectionTitle({ title }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-        className: "text-4xl ipad:text-5xl 2xl:text-[3.5vw] font-archivo text-black font-bold uppercase tracking-widest text-left opacity-40 ${className}",
+        className: "text-2xl ipad:text-3xl 2xl:text-[2vw] font-archivo text-black font-medium uppercase text-left opacity-70 leading-none pb-5 tracking-wide",
         children: title
     }, void 0, false, {
         fileName: "[project]/app/components/sectiontitle.tsx",
-        lineNumber: 11,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -235,7 +235,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function SectionSubtitle({ title, className = "" }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-        className: `uppercase tracking-widest mb-3 mt-3 scale-y-[2] text-black font-medium opacity-30 ${className}`,
+        className: `uppercase tracking-widest mb-3 text-sm/6 text-black font-medium opacity-30 ${className}`,
         children: title
     }, void 0, false, {
         fileName: "[project]/app/components/sectionsubtitle.tsx",
@@ -262,7 +262,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function WorkDescription({ description }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-black text-sm xs:text-base ipad:text-lg 2xl:text-[1.5vw] font-sans ",
+            className: "text-black text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8 font-sans leading-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "scale-y-[2] inline-block font-bold",
@@ -309,7 +309,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$workdes
 function SectionIntro({ title, description }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col gap-3 mb-5",
+            className: "flex flex-col mb-5",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectiontitle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     title: title
@@ -393,7 +393,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function BulletList({ items }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-        className: "list-disc text-black mt-5 mb-5 ml-5 text-sm xs:text-base ipad:text-lg 2xl:text-[1.5vw]",
+        className: "list-disc text-black mt-5 mb-5 ml-5 text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8",
         children: items.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                 children: item
             }, index, false, {
@@ -425,7 +425,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function SectionLine() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full h-[4px] bg-black opacity-20 "
+        className: "w-full h-[4px] bg-black opacity-20 mb-5"
     }, void 0, false, {
         fileName: "[project]/app/components/sectionline.tsx",
         lineNumber: 2,

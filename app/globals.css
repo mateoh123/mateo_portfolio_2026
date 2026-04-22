@@ -87,7 +87,11 @@
   animation: pulseGlow 2s ease-in-out infinite;
 }
 
+@keyframes legPulse {
+  0%, 100% { filter: brightness(1) sepia(0); }
+  50% { filter: brightness(1.1) sepia(0.4) hue-rotate(-20deg) saturate(1.5); }
+}
+
 body {
-  background: var(--foreground);
-  color: var(--foreground);
+
 }

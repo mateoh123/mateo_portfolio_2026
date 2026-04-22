@@ -616,21 +616,6 @@ function AAC_Client({ folders }) {
                 lineNumber: 45,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex justify-end items-end pt-[8vw]",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "origin-bottom mr-[0.5vw] md:text-[5vw] font-archivo text-black font-bold text-right scale-y-[3] leading-[0.8]",
-                    children: "Animated Album Covers"
-                }, void 0, false, {
-                    fileName: "[project]/app/aac/aacclient.tsx",
-                    lineNumber: 47,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/aac/aacclient.tsx",
-                lineNumber: 46,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 className: "relative min-h-screen grid grid-cols-1 md:grid-cols-[1fr_3fr] lg:grid-cols-[1fr_3fr] bg-white",
                 children: [
@@ -638,12 +623,20 @@ function AAC_Client({ folders }) {
                         sections: sections
                     }, void 0, false, {
                         fileName: "[project]/app/aac/aacclient.tsx",
-                        lineNumber: 52,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col m-[3vw] gap-5",
                         children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                className: "origin-bottom mr-[0.5vw] md:text-[5vw] font-archivo text-black font-bold text-right scale-y-[3] leading-[0.8]",
+                                children: "Animated Album Covers"
+                            }, void 0, false, {
+                                fileName: "[project]/app/aac/aacclient.tsx",
+                                lineNumber: 51,
+                                columnNumber: 11
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                 id: "overview",
                                 children: [
@@ -652,7 +645,7 @@ function AAC_Client({ folders }) {
                                         title: "Overview"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 57,
+                                        lineNumber: 55,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$projectskills$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -665,18 +658,18 @@ function AAC_Client({ folders }) {
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 60,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 56,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 68,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -686,17 +679,17 @@ function AAC_Client({ folders }) {
                                     title: "Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/app/aac/aacclient.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 69,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 75,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -707,14 +700,14 @@ function AAC_Client({ folders }) {
                                         title: "Concept"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 75,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionsubtitle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         title: "Examples"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 79,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$instagramshortsgrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -725,18 +718,18 @@ function AAC_Client({ folders }) {
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 80,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 76,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 90,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -746,21 +739,21 @@ function AAC_Client({ folders }) {
                                         title: "Process"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionsubtitle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         title: "Asset Preparation"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 93,
+                                        lineNumber: 91,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$workdescription$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         description: "I import the album artwork into Adobe Photoshop and prepare it for animation by isolating individual visual elements."
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 92,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$bulletedlist$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -772,21 +765,21 @@ function AAC_Client({ folders }) {
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 93,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionsubtitle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         title: "Animation"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 101,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$workdescription$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         description: "Once the assets are prepared, I move into Adobe After Effects to begin animating the composition. Using keyframing techniques, I create motion that reflects the personality of the album."
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 102,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$modalimagegrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -794,32 +787,32 @@ function AAC_Client({ folders }) {
                                         folder: "AAAAfterEffects"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 103,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionsubtitle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         title: "AR Integration"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 104,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$workdescription$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         description: "To expand the experience beyond traditional video, I import the animation into Snapchat Lens Studio and build an interactive augmented reality lens."
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 105,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 91,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 109,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -829,7 +822,7 @@ function AAC_Client({ folders }) {
                                         title: "Final Product"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 111,
+                                        lineNumber: 109,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$youtubeandimage$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -839,7 +832,7 @@ function AAC_Client({ folders }) {
                                         aspectRatio: "landscape"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 112,
+                                        lineNumber: 110,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$youtubeandimage$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -849,25 +842,25 @@ function AAC_Client({ folders }) {
                                         aspectRatio: "landscape"
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 116,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 110,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/aac/aacclient.tsx",
-                        lineNumber: 55,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/aac/aacclient.tsx",
-                lineNumber: 51,
+                lineNumber: 46,
                 columnNumber: 7
             }, this)
         ]

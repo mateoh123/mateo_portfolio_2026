@@ -19,7 +19,7 @@ export default function StatsGrid({ sections }: StatsGridProps) {
           <p className="uppercase ipadSM:text-[2.8vw] md:text-[1.8vw] lg:text-[1.6vw] tracking-widest opacity-70 mb-3 mt-3 scale-y-[2]">
             {title}
           </p>
-          <ul className="list-disc pl-6 text-sm xs:text-base ipad:text-lg 2xl:text-[1.5vw]">
+          <ul className="list-disc pl-6 ttext-xs xs:text-base ipad:text-lg 2xl:text-[1.2vw] 2xl:leading-8">
             {bullets.map((bullet, index) => (
               <li key={index}>{bullet}</li>
             ))}

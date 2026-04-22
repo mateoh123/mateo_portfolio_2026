@@ -9,7 +9,7 @@ export default function SectionSubtitle({
 }: SectionSubtitleProps) {
   return (
     <p
-      className={`uppercase tracking-widest mb-3 mt-3 scale-y-[2] text-black font-medium opacity-30 ${className}`}
+      className={`uppercase tracking-widest mb-3 text-sm/6 text-black font-medium opacity-30 ${className}`}
     >
       {title}
     </p>

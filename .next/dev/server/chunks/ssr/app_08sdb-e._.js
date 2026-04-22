@@ -390,7 +390,7 @@ const projects = [
     {
         title: "Animated Album Covers",
         category: "Creative Media",
-        image: "/assets/Work_Assets/mfitkcc6amjfxxyymjv8.avif",
+        image: "/assets/Work_Assets/mfewwfeewffwf.avif",
         link: "/aac"
     },
     {
@@ -486,7 +486,19 @@ function WorkPage() {
                 className: "relative min-h-screen  desktopSM:overflow-hidden gap-[1vw] grid grid-cols-1 desktopSM:grid-cols-[1fr_1.3fr] bg-white",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "hidden desktopSM:block desktopSM:flex flex-row desktopSM:flex-col "
+                        className: "hidden overflow-hidden desktopSM:flex flex-row desktopSM:flex-col h-screen",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            src: "/assets/legsBoots.png",
+                            alt: "name heading",
+                            width: 1000,
+                            height: 1000,
+                            className: "w-[25vw]  h-auto z-0 translate-y-[-1.8%] translate-x-[-1%]",
+                            priority: true
+                        }, void 0, false, {
+                            fileName: "[project]/app/work/page.tsx",
+                            lineNumber: 112,
+                            columnNumber: 11
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
                         lineNumber: 110,
@@ -504,12 +516,12 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 122,
+                                lineNumber: 128,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$contactpatch$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 131,
+                                lineNumber: 137,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -521,7 +533,7 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 133,
+                                lineNumber: 139,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -532,7 +544,7 @@ function WorkPage() {
                                 src: "/assets/mainworkfingerleft.png"
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 142,
+                                lineNumber: 148,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -543,17 +555,17 @@ function WorkPage() {
                                         projects: filteredProjects
                                     }, void 0, false, {
                                         fileName: "[project]/app/work/page.tsx",
-                                        lineNumber: 152,
+                                        lineNumber: 158,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.tsx",
-                                    lineNumber: 151,
+                                    lineNumber: 157,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 150,
+                                lineNumber: 156,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -565,13 +577,13 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 156,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 115,
+                        lineNumber: 121,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -586,7 +598,7 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 166,
+                                lineNumber: 172,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$nameheading$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -596,13 +608,13 @@ function WorkPage() {
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 174,
+                                lineNumber: 180,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 165,
+                        lineNumber: 171,
                         columnNumber: 9
                     }, this)
                 ]

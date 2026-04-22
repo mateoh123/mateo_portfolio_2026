@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Animated Album Covers",
     category: "Creative Media",
-    image: "/assets/Work_Assets/mfitkcc6amjfxxyymjv8.avif",
+    image: "/assets/Work_Assets/mfewwfeewffwf.avif",
     link: "/aac",
   },
   {
@@ -107,11 +107,17 @@ export default function WorkPage() {
         setActiveFilter={setActiveFilter}
       />
       <main className="relative min-h-screen  desktopSM:overflow-hidden gap-[1vw] grid grid-cols-1 desktopSM:grid-cols-[1fr_1.3fr] bg-white">
-        <div className="hidden desktopSM:block desktopSM:flex flex-row desktopSM:flex-col ">
+        <div className="hidden overflow-hidden desktopSM:flex flex-row desktopSM:flex-col h-screen">
           {/* Leg Boots */}
-          {/* <NameHeading names={["Mateo", "Hernandez"]} /> */}
+          <Image
+            src="/assets/legsBoots.png"
+            alt="name heading"
+            width={1000}
+            height={1000}
+            className="w-[25vw]  h-auto z-0 translate-y-[-1.8%] translate-x-[-1%]"
+            priority
+          />
         </div>
-
         <div className=" overflow-hidden">
           {/* <DesktopFilter
             categories={categories}

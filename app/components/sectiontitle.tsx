@@ -3,14 +3,11 @@ type SectionTitleProps = {
   className?: string;
 };
 
-export default function SectionTitle({
-  title,
-  className = "",
-}: SectionTitleProps) {
+export default function SectionTitle({ title }: SectionTitleProps) {
   return (
     <h1
       className={
-        "text-4xl ipad:text-5xl 2xl:text-[3.5vw] font-archivo text-black font-bold uppercase tracking-widest text-left opacity-40 ${className}"
+        "text-2xl ipad:text-3xl 2xl:text-[2vw] font-archivo text-black font-medium uppercase text-left opacity-70 leading-none pb-5 tracking-wide"
       }
     >
       {title}
