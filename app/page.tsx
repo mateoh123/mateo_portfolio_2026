@@ -176,9 +176,20 @@ export default function WorkPage() {
         activeFilter={activeFilter}
         setActiveFilter={setActiveFilter}
       />
-      <main className="relative min-h-screen  desktopSM:overflow-hidden gap-[1vw] grid grid-cols-1 desktopSM:grid-cols-[1fr_1.3fr] bg-white">
+      <main className="relative min-h-screen  desktopSM:overflow-hidden gap-[1vw] grid grid-row-2 desktopSM:grid-cols-[1fr_1.3fr] bg-white">
+        <div className="desktopSM:hidden left-0 w-full z-50 flex flex-row items-end bg-white ">
+          <Image
+            src="/assets/legsBoots.png"
+            alt="Leg Boots"
+            width={1000}
+            height={1000}
+            className="mr-auto scale-y-[-1] w-[32vw] h-auto"
+            priority
+          />
+          <NameHeading names={["Mateo", "Hernandez"]} />
+        </div>
         <div className="hidden overflow-hidden desktopSM:flex flex-row desktopSM:flex-col h-screen gap-6 ml-[1vw]">
-          <h1 className=" mobile:origin-center text-[5vw] ipad:text-[3vw] ipad:mt-[3vw] md:text-[2.5vw] md:mt-[2vw] lg:text-[2vw] lg:mt-[2vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
+          <h1 className=" mobile:origin-center text-[5vw] ipad:text-[3vw] ipad:mt-[2.5vw] md:text-[2vw] md:mt-[2vw] lg:text-[1.5vw] lg:mt-[2vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
             Mateo Hernandez
           </h1>
           <SocialLinks
@@ -223,7 +234,7 @@ export default function WorkPage() {
             src="/assets/mainworkfingerleft.png"
           />
           {/* 3. Grid — in front of hand */}
-          <div className="overflow-y-scroll h-screen relative z-10 bg-white pointer-events-none">
+          <div className="overflow-y-scroll desktopSM:h-screen relative z-10 bg-white pointer-events-none">
             <div className="pointer-events-auto">
               <WorkGrid projects={filteredProjects} />
             </div>
@@ -237,17 +248,6 @@ export default function WorkPage() {
             className="hidden desktopSM:block desktopSM:absolute w-[30vw] right-[-15%] desktopSM::-right-[4%] desktopSM::bottom-[42%] desktopSM::w-[8vw] h-auto z-20"
             priority
           />
-        </div>
-        <div className="desktopSM:hidden bottom-0 left-0 w-full z-50 flex flex-row items-end bg-white border-2">
-          <Image
-            src="/assets/legsBoots.png"
-            alt="Leg Boots"
-            width={1000}
-            height={1000}
-            className="mr-auto scale-y-[-1] w-[32vw] h-auto"
-            priority
-          />
-          <NameHeading names={["Mateo", "Hernandez"]} />
         </div>
       </main>
     </>

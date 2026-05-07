@@ -1969,6 +1969,12 @@
   }
 
   @media (min-width: 720px) {
+    .ipad\:mt-\[2\.5vw\] {
+      margin-top: 2.5vw;
+    }
+  }
+
+  @media (min-width: 720px) {
     .ipad\:mt-\[3vw\] {
       margin-top: 3vw;
     }
@@ -2033,6 +2039,12 @@
   @media (min-width: 770px) {
     .desktopSM\:hidden {
       display: none;
+    }
+  }
+
+  @media (min-width: 770px) {
+    .desktopSM\:h-screen {
+      height: 100vh;
     }
   }
 
@@ -2471,8 +2483,20 @@
   }
 
   @media (min-width: 64rem) {
+    .lg\:text-\[1\.5vw\] {
+      font-size: 1.5vw;
+    }
+  }
+
+  @media (min-width: 64rem) {
     .lg\:text-\[1\.8vw\] {
       font-size: 1.8vw;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:text-\[1vw\] {
+      font-size: 1vw;
     }
   }
 
