@@ -70,7 +70,7 @@ function ProjectSkills({ role, organization, softwares = [] }) {
                 className: "w-full flex flex-col ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-sans text-sm ipad:text-lg 2xl:text-[1.3vw] text-black font-bold uppercase tracking-widest text-left opacity-30",
+                        className: "font-sans text-sm ipad:text-base 2xl:text-[1.1vw] text-black font-bold uppercase tracking-widest text-left opacity-30",
                         children: label
                     }, void 0, false, {
                         fileName: "[project]/app/components/projectskills.tsx",
@@ -78,7 +78,7 @@ function ProjectSkills({ role, organization, softwares = [] }) {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-medium font-sans text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8",
+                        className: " font-sans text-xs xs:text-sm 2xl:text-[1vw] 2xl:leading-8",
                         children: value
                     }, void 0, false, {
                         fileName: "[project]/app/components/projectskills.tsx",
@@ -196,7 +196,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function SectionSubtitle({ title, className = "" }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-        className: `uppercase tracking-widest mb-3 text-sm/6 text-black font-medium opacity-30 ${className}`,
+        className: `uppercase tracking-widest mb-3  text-sm/6 text-black font-medium opacity-30 ${className}`,
         children: title
     }, void 0, false, {
         fileName: "[project]/app/components/sectionsubtitle.tsx",
@@ -217,7 +217,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function WorkDescription({ description }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-black text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8 font-sans leading-6",
+            className: "text-black mb-3 text-xs xs:text-sm 2xl:text-[1vw] 2xl:leading-8 font-sans leading-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "scale-y-[2] inline-block font-bold",
@@ -413,20 +413,7 @@ function WAR_Client({ folders }) {
                 lineNumber: 23,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "origin-top mt-[2vw] mb-[14vw] ml-[0.5vw]  md:text-[5vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]",
-                    children: "WIRED: AR Magazine Cover"
-                }, void 0, false, {
-                    fileName: "[project]/app/WAR/warclient.tsx",
-                    lineNumber: 25,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/WAR/warclient.tsx",
-                lineNumber: 24,
-                columnNumber: 7
-            }, this),
+            "WIRED: AR Magazine Cover",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 className: "relative min-h-screen grid grid-cols-1 md:grid-cols-[1fr_3fr] lg:grid-cols-[1fr_3fr] bg-white",
                 children: [
@@ -434,7 +421,7 @@ function WAR_Client({ folders }) {
                         sections: sections
                     }, void 0, false, {
                         fileName: "[project]/app/WAR/warclient.tsx",
-                        lineNumber: 30,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -448,7 +435,7 @@ function WAR_Client({ folders }) {
                                         title: "Overview"
                                     }, void 0, false, {
                                         fileName: "[project]/app/WAR/warclient.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 29,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$projectskills$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -461,18 +448,18 @@ function WAR_Client({ folders }) {
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/WAR/warclient.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/WAR/warclient.tsx",
-                                lineNumber: 32,
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/WAR/warclient.tsx",
-                                lineNumber: 47,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -482,14 +469,14 @@ function WAR_Client({ folders }) {
                                         title: "Process"
                                     }, void 0, false, {
                                         fileName: "[project]/app/WAR/warclient.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionsubtitle$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         title: "After Effects"
                                     }, void 0, false, {
                                         fileName: "[project]/app/WAR/warclient.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 46,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$modalimagegrid$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -497,18 +484,18 @@ function WAR_Client({ folders }) {
                                         folder: "WAR"
                                     }, void 0, false, {
                                         fileName: "[project]/app/WAR/warclient.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 47,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/WAR/warclient.tsx",
-                                lineNumber: 48,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/WAR/warclient.tsx",
-                                lineNumber: 53,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -518,7 +505,7 @@ function WAR_Client({ folders }) {
                                         title: "Final Product"
                                     }, void 0, false, {
                                         fileName: "[project]/app/WAR/warclient.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 51,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$instagramshortsgrid$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -527,25 +514,25 @@ function WAR_Client({ folders }) {
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/WAR/warclient.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 52,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/WAR/warclient.tsx",
-                                lineNumber: 54,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/WAR/warclient.tsx",
-                        lineNumber: 31,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/WAR/warclient.tsx",
-                lineNumber: 29,
+                lineNumber: 25,
                 columnNumber: 7
             }, this)
         ]

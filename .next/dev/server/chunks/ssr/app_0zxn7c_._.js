@@ -582,19 +582,20 @@ function AAC_Client({ folders }) {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$workdescription$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        description: "The goal was to reimagine static album artwork as dynamic visual experiences that extend the narrative of the music. To push the concept further, I integrated these animations into Snapchat Lens Studio, transforming them into interactive augmented reality (AR) experiences that allow users to engage with album visuals in a more immersive way. This project explores how motion design and AR can serve as alternative promotional tools for musicians in the digital era, where visual identity and shareable content are essential to audience engagement."
+                                        description: "Imagine if your favorite artist's album could move? I decided to explore how motion design and AR can serve as alternative promotional tools for musicians in the digital era, where visual identity and shareable content are essential to audience engagement."
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
                                         lineNumber: 43,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$projectskills$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        role: "Designer & Developer",
-                                        organization: "NYU",
+                                        role: "Solo Designer/Developer",
+                                        organization: "Personal Project",
                                         softwares: [
-                                            "After Effects",
-                                            "Lens Studio",
-                                            "Figma"
+                                            "Adobe After Effects",
+                                            "Adobe Photoshop",
+                                            "Adobe Premiere Pro",
+                                            "Snapchat Lens Studio"
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/aac/aacclient.tsx",
@@ -612,21 +613,7 @@ function AAC_Client({ folders }) {
                                     topLegSrc: "/assets/TopLegAccordian.png",
                                     bottomLegSrc: "/assets/BottomLegAccordian.png",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionintro$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            description: "Album covers are traditionally static images, yet music consumption today happens in highly visual, social, and interactive environments. Artists and marketers are constantly searching for new ways to capture attention and create memorable brand moments.",
-                                            title: "Problem"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/aac/aacclient.tsx",
-                                            lineNumber: 56,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                            fileName: "[project]/app/aac/aacclient.tsx",
-                                            lineNumber: 60,
-                                            columnNumber: 15
-                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                            id: "concept",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionintro$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     description: "I developed a workflow to reinterpret popular album covers as animated visuals that reflect the tone, themes, and emotional atmosphere of the music.",
@@ -746,12 +733,12 @@ function AAC_Client({ folders }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/aac/aacclient.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/aac/aacclient.tsx",
-                                lineNumber: 51,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this)
                         ]

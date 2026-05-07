@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function GoBack() {
   return (
-    <Link href="/work">
+    <Link href="/">
       <Image
         src="/assets/WorkBackHand.png"
         alt="go back"

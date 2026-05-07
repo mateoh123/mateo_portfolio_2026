@@ -77,7 +77,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function BulletList({ items }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-        className: "list-disc text-black mt-5 mb-5 ml-5 text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8",
+        className: "list-disc text-black mt-5 mb-5 ml-5 text-xs xs:text-sm 2xl:text-[1vw] 2xl:leading-8",
         children: items.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                 children: item
             }, index, false, {
@@ -124,7 +124,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function WorkDescription({ description }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-black text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8 font-sans leading-6",
+            className: "text-black mb-3 text-xs xs:text-sm 2xl:text-[1vw] 2xl:leading-8 font-sans leading-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "scale-y-[2] inline-block font-bold",
@@ -239,7 +239,7 @@ function ProjectSkills({ role, organization, softwares = [] }) {
                 className: "w-full flex flex-col ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-sans text-sm ipad:text-lg 2xl:text-[1.3vw] text-black font-bold uppercase tracking-widest text-left opacity-30",
+                        className: "font-sans text-sm ipad:text-base 2xl:text-[1.1vw] text-black font-bold uppercase tracking-widest text-left opacity-30",
                         children: label
                     }, void 0, false, {
                         fileName: "[project]/app/components/projectskills.tsx",
@@ -247,7 +247,7 @@ function ProjectSkills({ role, organization, softwares = [] }) {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-medium font-sans text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8",
+                        className: " font-sans text-xs xs:text-sm 2xl:text-[1vw] 2xl:leading-8",
                         children: value
                     }, void 0, false, {
                         fileName: "[project]/app/components/projectskills.tsx",
@@ -325,22 +325,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$goback$
 ;
 ;
 ;
-const sections = [
-    "Overview",
-    "Problem",
-    "Constraints",
-    "Color System",
-    "Typography",
-    "Timeline",
-    "Final Product",
-    "Reflection"
-];
 function AA_Client({ folders }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$goback$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/AA/aaclient.tsx",
-                lineNumber: 30,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -352,12 +342,12 @@ function AA_Client({ folders }) {
                     className: "object-cover"
                 }, void 0, false, {
                     fileName: "[project]/app/AA/aaclient.tsx",
-                    lineNumber: 32,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/AA/aaclient.tsx",
-                lineNumber: 31,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -368,7 +358,7 @@ function AA_Client({ folders }) {
                         activeColor: "text-purple-800"
                     }, void 0, false, {
                         fileName: "[project]/app/AA/aaclient.tsx",
-                        lineNumber: 41,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -382,7 +372,7 @@ function AA_Client({ folders }) {
                                         title: "Overview"
                                     }, void 0, false, {
                                         fileName: "[project]/app/AA/aaclient.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$projectskills$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -395,18 +385,18 @@ function AA_Client({ folders }) {
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/AA/aaclient.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 37,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 45,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 56,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -417,7 +407,7 @@ function AA_Client({ folders }) {
                                         title: "Problem"
                                     }, void 0, false, {
                                         fileName: "[project]/app/AA/aaclient.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$bulletedlist$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -430,18 +420,18 @@ function AA_Client({ folders }) {
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/AA/aaclient.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 49,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 57,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 72,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -452,7 +442,7 @@ function AA_Client({ folders }) {
                                         title: "Constraints"
                                     }, void 0, false, {
                                         fileName: "[project]/app/AA/aaclient.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 61,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$bulletedlist$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -465,18 +455,18 @@ function AA_Client({ folders }) {
                                         ]
                                     }, void 0, false, {
                                         fileName: "[project]/app/AA/aaclient.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 65,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 73,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 88,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -489,12 +479,12 @@ function AA_Client({ folders }) {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/AA/aaclient.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 89,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -507,12 +497,12 @@ function AA_Client({ folders }) {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/AA/aaclient.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 97,
+                                lineNumber: 84,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -525,12 +515,12 @@ function AA_Client({ folders }) {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/AA/aaclient.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 105,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -543,12 +533,12 @@ function AA_Client({ folders }) {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/AA/aaclient.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 113,
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -560,12 +550,12 @@ function AA_Client({ folders }) {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/AA/aaclient.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 121,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -577,17 +567,17 @@ function AA_Client({ folders }) {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/AA/aaclient.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 117,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 129,
+                                lineNumber: 116,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sectionline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 137,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -597,24 +587,24 @@ function AA_Client({ folders }) {
                                     title: "Reflection"
                                 }, void 0, false, {
                                     fileName: "[project]/app/AA/aaclient.tsx",
-                                    lineNumber: 139,
+                                    lineNumber: 126,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/AA/aaclient.tsx",
-                                lineNumber: 138,
+                                lineNumber: 125,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/AA/aaclient.tsx",
-                        lineNumber: 44,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/AA/aaclient.tsx",
-                lineNumber: 40,
+                lineNumber: 27,
                 columnNumber: 7
             }, this)
         ]

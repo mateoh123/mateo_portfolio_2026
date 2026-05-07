@@ -16,10 +16,10 @@ export default function StatsGrid({ sections }: StatsGridProps) {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 text-black">
       {sections.map(({ title, bullets, image, imageAlt }) => (
         <div key={title}>
-          <p className="uppercase ipadSM:text-[2.8vw] md:text-[1.8vw] lg:text-[1.6vw] tracking-widest opacity-70 mb-3 mt-3 scale-y-[2]">
+          <p className="uppercase text-xs xs:text-sm 2xl:text-[1vw] 2xl:leading-8 tracking-widest opacity-70 mb-3 mt-3 scale-y-[2]">
             {title}
           </p>
-          <ul className="list-disc pl-6 ttext-xs xs:text-base ipad:text-lg 2xl:text-[1.2vw] 2xl:leading-8">
+          <ul className="list-disc pl-6 text-xs xs:text-base 2xl:text-[1.2vw] 2xl:leading-8">
             {bullets.map((bullet, index) => (
               <li key={index}>{bullet}</li>
             ))}

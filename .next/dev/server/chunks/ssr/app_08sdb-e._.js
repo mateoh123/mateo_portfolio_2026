@@ -400,6 +400,12 @@ const projects = [
         link: "/oosgd"
     },
     {
+        title: "Twenty To Ten",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxyymjv8.avif",
+        link: "/TwentyToTen"
+    },
+    {
         title: "Digital Media Intellect",
         category: "Digital Marketing",
         image: "/assets/Work_Assets/huxourc1ps5fgo6twlxc.avif",
@@ -436,10 +442,58 @@ const projects = [
         link: "/cyh"
     },
     {
-        title: "Valorax: Your Hero",
-        category: "VR Development",
-        image: "/projects/marketing-project.jpg",
-        link: "/vyh"
+        title: "Voting Is Cool",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxyym8.avif",
+        link: "/VotingIsCool"
+    },
+    {
+        title: "Across The Amtrak",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxmjv8.avif",
+        link: "/AcrossTheAmtrak"
+    },
+    {
+        title: "Creation Of Foam",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxmjv8.avif",
+        link: "/CreationOfFoam"
+    },
+    {
+        title: "Sonicon Ava",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxmjv8.avif",
+        link: "/SoniconAva"
+    },
+    {
+        title: "Urban Jungle",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxmjv8.avif",
+        link: "/BigCity"
+    },
+    {
+        title: "The Kids Of LA",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxmjv8.avif",
+        link: "/TheKidsOfLA"
+    },
+    {
+        title: "Portaits and Headshots",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxmjv8.avif",
+        link: "/PortraitsAndHeadshots"
+    },
+    {
+        title: "New York",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxmjv8.avif",
+        link: "/NewYork"
+    },
+    {
+        title: "California",
+        category: "Photography",
+        image: "/assets/Work_Assets/mfitkcc6amjfxxmjv8.avif",
+        link: "/California"
     },
     {
         title: "20 To 10: AR Experience",
@@ -479,29 +533,17 @@ function WorkPage() {
                 setActiveFilter: setActiveFilter
             }, void 0, false, {
                 fileName: "[project]/app/work/page.tsx",
-                lineNumber: 104,
+                lineNumber: 159,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 className: "relative min-h-screen  desktopSM:overflow-hidden gap-[1vw] grid grid-cols-1 desktopSM:grid-cols-[1fr_1.3fr] bg-white",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "hidden overflow-hidden desktopSM:flex flex-row desktopSM:flex-col h-screen",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: "/assets/legsBoots.png",
-                            alt: "name heading",
-                            width: 1000,
-                            height: 1000,
-                            className: "w-[25vw]  h-auto z-0 translate-y-[-1.8%] translate-x-[-1%]",
-                            priority: true
-                        }, void 0, false, {
-                            fileName: "[project]/app/work/page.tsx",
-                            lineNumber: 112,
-                            columnNumber: 11
-                        }, this)
+                        className: "hidden overflow-hidden desktopSM:flex flex-row desktopSM:flex-col h-screen"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 110,
+                        lineNumber: 165,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -516,12 +558,17 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 128,
+                                lineNumber: 183,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$contactpatch$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 137,
+                                lineNumber: 192,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$contactpatch$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                fileName: "[project]/app/work/page.tsx",
+                                lineNumber: 193,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -533,7 +580,7 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 139,
+                                lineNumber: 195,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -544,7 +591,7 @@ function WorkPage() {
                                 src: "/assets/mainworkfingerleft.png"
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 148,
+                                lineNumber: 204,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -555,17 +602,17 @@ function WorkPage() {
                                         projects: filteredProjects
                                     }, void 0, false, {
                                         fileName: "[project]/app/work/page.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 214,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 213,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 156,
+                                lineNumber: 212,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -577,13 +624,13 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 162,
+                                lineNumber: 218,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 121,
+                        lineNumber: 176,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -598,7 +645,7 @@ function WorkPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 172,
+                                lineNumber: 228,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$nameheading$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -608,19 +655,19 @@ function WorkPage() {
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 180,
+                                lineNumber: 236,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 171,
+                        lineNumber: 227,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/work/page.tsx",
-                lineNumber: 109,
+                lineNumber: 164,
                 columnNumber: 7
             }, this)
         ]

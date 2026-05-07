@@ -4,7 +4,7 @@ type NameHeadingProps = {
 
 export default function NameHeading({ names }: NameHeadingProps) {
   return (
-    <div className="flex -translate-y-[15vw] -translate-x-[15vw] desktopSM:translate-x-0 desktopSM:translate-y-0 flex-col gap-[14vw] desktopSM:gap-[8vw] lg:gap-[7vw] 2xl:gap-[9vw] opacity-70">
+    <div className="flex -translate-y-[15vw] -translate-x-[12vw] desktopSM:translate-x-0 desktopSM:translate-y-0 flex-col gap-[14vw] desktopSM:gap-[8vw] lg:gap-[7vw] 2xl:gap-[9vw] ">
       {names.map((name) => (
         <h1
           key={name}

@@ -1,7 +1,6 @@
 "use client";
 import ModalImageGrid from "../components/modalimagegrid";
 import ProjectSkills from "../components/projectskills";
-import ScrollNav from "../components/scrollnav";
 import SectionTitle from "../components/sectiontitle";
 import SectionSubtitle from "../components/sectionsubtitle";
 import SectionIntro from "../components/sectionintro";
@@ -10,8 +9,11 @@ import BulletList from "../components/bulletedlist";
 import WorkDescription from "../components/workdescription";
 import SectionLine from "../components/sectionline";
 import GoBack from "../components/goback";
-
-const sections = ["Overview", "Process", "Final Product"];
+import MainContentContainer from "../components/maincontentcontainer";
+import LeftContentContainer from "../components/leftcontentcontainer";
+import RightContentContainer from "../components/rightcontentcontainer";
+import MainWorkTitle from "../components/mainworktitle";
+import LegAccordion from "../components/LegAccordian";
 
 type Props = {
   folders: Record<string, string[]>;
@@ -21,21 +23,22 @@ export default function TTTAR_Client({ folders }: Props) {
   return (
     <>
       <GoBack />
-      <div>
-        <h1 className="origin-top mt-[2vw] mb-[14vw] ml-[0.5vw]  md:text-[5vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8]">
-          Twenty To Ten: AR Experience
-        </h1>
-      </div>
-      <main className="relative min-h-screen grid grid-cols-1 md:grid-cols-[1fr_3fr] lg:grid-cols-[1fr_3fr] bg-white">
-        <ScrollNav sections={sections} />
-
-        {/* Right column — all content */}
-        <div className="flex flex-col m-[3vw] gap-5">
+      <MainContentContainer>
+        <LeftContentContainer>
+          <InstagramShortsGrid
+            urls={[
+              "https://www.youtube.com/embed/EaON7ISVxIw",
+              "https://www.youtube.com/embed/s5du9-7cQVw",
+              "https://www.youtube.com/embed/LrOQFNh00R4",
+            ]}
+          />
+        </LeftContentContainer>
+        <RightContentContainer>
           <section id="overview">
-            <SectionIntro
-              description="I animated WIRED magazine’s 'The Influence Machine' edition to explore how motion and augmented reality can push the boundaries of traditional magazine design. Using Photoshop’s rotoscoping techniques, I isolated and animated key visual elements from the magazine cover, then refined the motion and sequencing in Premiere Pro to create a cohesive animation. To further enhance engagement, I integrated the animation into an augmented reality experience using a Snapchat lens, allowing viewers to interact with the cover through their mobile devices."
-              title="Overview"
-            />
+            <div className="pt-5 mb-5">
+              <MainWorkTitle title="Twenty To Ten: AR Experience" />
+            </div>
+            <WorkDescription description="“Twenty To Ten” is a photo series I created reflecting on the lack of growth I felt across different stages of my life, while still acknowledging how thrilling that journey has been. I wanted the images to feel “alive” to reinforce this tension, so I animated the photos. By using Snapchat’s Lens Studio, I was able to extend that sense of movement and share the feeling of “aliveness” with others." />
             <ProjectSkills
               role="Creative Technologist, Photographer, AR Developer"
               organization="Personal Project"
@@ -47,50 +50,38 @@ export default function TTTAR_Client({ folders }: Props) {
               ]}
             />
           </section>
-          <SectionLine />
-          <section id="process">
-            <SectionTitle title="Process" />
-            <SectionSubtitle title="Conceptulization" />
-            <WorkDescription description="After completing the 'Twenty To Ten' photo series, I reflected on how the visual mood and themes could be expanded beyond still imagery. I wanted viewers to experience the photos as living moments rather than static scenes." />
-            <BulletList
-              items={[
-                "Served as a motion capture actor, performing physical movements that were recorded and translated into animation data for the characters in the trailer",
-                "Built key 3D environments in Blender, including the city scene and house scene used throughout the film",
-                "Designed and implemented the sound effects for the final trailer to enhance immersion and narrative pacing",
-              ]}
-            />
-            <ModalImageGrid folders={folders} folder="TTTAR" />
-            <SectionSubtitle title="Animation in After Effects" />
-            <WorkDescription description="I used Adobe After Effects to animate the photographs, adding motion and depth to the original images." />
-            <BulletList
-              items={[
-                "Created motion animations and visual transitions",
-                "Exported animated assets for AR integration",
-              ]}
-            />
-            <SectionSubtitle title="Augmented Reality Development" />
-            <WorkDescription description="Once the animations were complete, I integrated them into an augmented reality environment using Snapchat Lens Studio." />
-            <BulletList
-              items={[
-                "Imported animated assets into Lens Studio",
-                "Optimized assets for mobile performance",
-                "Programmed interactive behaviors",
-              ]}
-            />
-          </section>
-          <SectionLine />
-          <section id="final-product">
-            <SectionTitle title="Final Product" />
-            <InstagramShortsGrid
-              urls={[
-                "https://www.youtube.com/embed/EaON7ISVxIw",
-                "https://www.youtube.com/embed/s5du9-7cQVw",
-                "https://www.youtube.com/embed/LrOQFNh00R4",
-              ]}
-            />
-          </section>
-        </div>
-      </main>
+          <div className="-mx-5">
+            <LegAccordion
+              topLegSrc="/assets/TopLegAccordian.png"
+              bottomLegSrc="/assets/BottomLegAccordian.png"
+            >
+              <section id="process">
+                <SectionTitle title="Process" />
+                <SectionSubtitle title="Conceptulization" />
+                <WorkDescription description="After completing the 'Twenty To Ten' photo series, I reflected on how the visual mood and themes could be expanded beyond still imagery. I wanted viewers to experience the photos as living moments rather than static scenes." />
+                <ModalImageGrid folders={folders} folder="TTTAR" />
+                <SectionSubtitle title="Animation" />
+                <WorkDescription description="I used Adobe After Effects to animate the photographs, adding motion and depth to the original images." />
+                <BulletList
+                  items={[
+                    "Created motion animations and visual transitions",
+                    "Exported animated assets for AR integration",
+                  ]}
+                />
+                <SectionSubtitle title="Lens Studio Development" />
+                <WorkDescription description="Once the animations were complete, I integrated them into an augmented reality environment using Snapchat Lens Studio." />
+                <BulletList
+                  items={[
+                    "Imported animated assets into Lens Studio",
+                    "Optimized assets for mobile performance",
+                    "Programmed interactive behaviors",
+                  ]}
+                />
+              </section>
+            </LegAccordion>
+          </div>
+        </RightContentContainer>
+      </MainContentContainer>
     </>
   );
 }

@@ -72,7 +72,7 @@ function Home() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col gap-[45vw] mobile:gap-[15vw] ipad:gap-[15vw] md:gap-[5vw]",
+                        className: "flex flex-col gap-[45vw] mobile:mt-5 mobile:gap-[25vw] ipad:gap-[25vw] md:gap-[5vw]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col justify-start items-start",
@@ -80,7 +80,7 @@ function Home() {
                                     className: "flex flex-row items-center gap-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                            className: "origin-top mobile:origin-center text-[19vw] ipad:text-[15vw] md:text-[6vw]  font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8] ",
+                                            className: "origin-top mobile:origin-center text-[19vw] ipad:text-[14vw] md:text-[6vw]  font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8] ",
                                             children: "Mateo"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
@@ -88,7 +88,7 @@ function Home() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "hidden mobile:mt-1 text-[10vw] ipad:text-[7vw] mobile:flex md:text-[3vw] flex-col gap-2 md:gap-0.5 mt-2 text-left text-stone-600",
+                                            className: "hidden mobile:mt-1 text-[8vw] ipad:text-[7vw] mobile:flex md:text-[3vw] flex-col gap-2 md:gap-0.5 mt-2 text-left text-stone-600",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/work",
@@ -139,7 +139,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-[19vw] ipad:text-[15vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8] mb-[8vw]",
+                                    className: "text-[18vw] ipad:text-[14vw] md:text-[6vw] font-archivo text-black font-bold text-left scale-y-[3] leading-[0.8] mb-[8vw]",
                                     children: "Hernandez"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",

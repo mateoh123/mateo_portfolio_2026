@@ -1,0 +1,12 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/PortraitsAndHeadshots/page": [
+      "static/media/5e4d537aaa9e154b-s.p.0g9-.3zp53cup.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2",
+      "static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

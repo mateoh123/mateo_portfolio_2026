@@ -1,6 +1,6 @@
 "use client";
-
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 type MobileFilterSidebarProps = {
   categories: string[];
@@ -27,7 +27,7 @@ export default function MobileFilterSidebar({
       {/* Sideways "Filters" trigger button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed left-0 top-1/12 -translate-y-1/12 z-50 bg-white text-black text-sm font-medium tracking-widest uppercase py-2 "
+        className="fixed left-0 top-1/12 -translate-y-1/12 z-50 bg-white text-black text-sm font-medium tracking-widest uppercase py-3 p-1 "
         style={{
           writingMode: "vertical-rl",
           transform: "translateY(180%) rotate(360deg)",
@@ -40,7 +40,7 @@ export default function MobileFilterSidebar({
       {isOpen && (
         <div
           onClick={() => setIsOpen(false)}
-          className="fixed inset-0 bg-black/40 z-40 transition-opacity duration-300"
+          className="fixed inset-0 bg-black/40 z-100 transition-opacity duration-300"
         />
       )}
 
@@ -59,12 +59,12 @@ export default function MobileFilterSidebar({
           transition-transform
           duration-300
           ease-in-out
+          z-100
+          border-8
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
         `}
       >
-     
-
-        <div className="flex flex-col gap-3 text-[8vw] xs:text-[5vw] ipadSM:text-[4vw] ipadLG:text-[3vw] ">
+        <div className="flex flex-col gap-[3vw] pt-8 pl-4 text-[6vw] xs:text-[4vw] ipadSM:text-[3vw] ipadLG:text-[2vw]">
           {categories.map((category) => (
             <button
               key={category}
