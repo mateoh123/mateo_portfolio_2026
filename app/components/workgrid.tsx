@@ -83,7 +83,7 @@ export default function WorkGrid({ projects }: WorkGridProps) {
   return (
     <section className="w-full border-1">
       <div className="mx-auto">
-        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 overflow-y-auto">
+        <div className="grid grid-cols-2 xs:grid-cols-2 md:grid-cols-2 overflow-y-auto">
           {projects.map((project, index) => (
             <WorkGridItem key={index} project={project} />
           ))}

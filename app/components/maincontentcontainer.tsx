@@ -10,17 +10,18 @@ export default function MainContentContainer({
   return (
     <main
       className={`
-        border-15
-        relative
-        md:h-screen
-        grid
-        grid-cols-1
-        md:grid-cols-[2fr_1fr]
-        bg-white
-        md:overflow-hidden
-        items-start
-        ${className}
-      `}
+    border-15
+    relative
+    md:h-screen
+    flex
+    flex-col-reverse
+    md:grid
+    md:grid-cols-[2fr_1fr]
+    bg-white
+    md:overflow-hidden
+    items-start
+    ${className}
+  `}
     >
       {children}
     </main>

@@ -238,7 +238,7 @@ export default function WorkPage() {
             priority
           />
         </div>
-        <div className="desktopSM:hidden fixed bottom-0 left-0 w-full z-50 flex flex-row items-end bg-white border-2">
+        <div className="desktopSM:hidden bottom-0 left-0 w-full z-50 flex flex-row items-end bg-white border-2">
           <Image
             src="/assets/legsBoots.png"
             alt="Leg Boots"

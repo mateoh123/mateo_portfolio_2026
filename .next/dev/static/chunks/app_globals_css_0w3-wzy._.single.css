@@ -1015,12 +1015,20 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .grid-cols-\[1fr\] {
     grid-template-columns: 1fr;
   }
 
   .flex-col {
     flex-direction: column;
+  }
+
+  .flex-col-reverse {
+    flex-direction: column-reverse;
   }
 
   .flex-row {
@@ -2111,12 +2119,6 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:mt-\[12vw\] {
-      margin-top: 12vw;
-    }
-  }
-
-  @media (min-width: 48rem) {
     .md\:block {
       display: block;
     }
@@ -2125,6 +2127,12 @@
   @media (min-width: 48rem) {
     .md\:flex {
       display: flex;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:grid {
+      display: grid;
     }
   }
 
@@ -2293,12 +2301,6 @@
   @media (min-width: 48rem) {
     .md\:text-\[6vw\] {
       font-size: 6vw;
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:text-\[15vw\] {
-      font-size: 15vw;
     }
   }
 
